@@ -1,9 +1,12 @@
 {
   "name": "fb-ngrx-undo",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "description": "Undo support for @ngrx/store",
   "license": "MIT",
-  "repository": "Abdelmageed/ngrx-undo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelmageed/ngrx-undo.git"
+  },
   "author": {
     "name": "Brecht Billiet",
     "email": "billietbrecht@gmail.com",
@@ -29,10 +32,10 @@
   "main": "./bundles/ngrx-undo.umd.js",
   "module": "./index.js",
   "devDependencies": {
-    "@angular/compiler": "^16.2.4",
-    "@angular/compiler-cli": "^16.2.4",
-    "@angular/core": "^16.2.4",
-    "@ngrx/store": "^16.0.0",
+    "@angular/compiler": "^17.3.12",
+    "@angular/compiler-cli": "^17.3.12",
+    "@angular/core": "^17.3.12",
+    "@ngrx/store": "^17.2.0",
     "@types/node": "^6.0.38",
     "awesome-typescript-loader": "^2.2.1",
     "core-js": "^2.4.1",
@@ -43,12 +46,12 @@
     "ts-loader": "^0.8.2",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
-    "typescript": "~5.0.2",
+    "typescript": "5.4",
     "uglify-js": "^3.4.9",
-    "zone.js": "^0.13.1"
+    "zone.js": "^0.14.10"
   },
   "peerDependencies": {
-    "@ngrx/store": "^16.0.0"
+    "@ngrx/store": "^17.2.0"
   },
   "dependencies": {
     "@types/jasmine": "^4.3.6"
