@@ -5,7 +5,8 @@
     "stripInternal": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "module": "commonjs",
+    "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "node",
     "noEmitOnError": false,
     "outDir": "./release",
@@ -14,7 +15,6 @@
       "es2015",
       "dom"
     ],
-    "target": "es5",
     "skipLibCheck": true,
     "types": [
       "node",
