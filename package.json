@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "@angular/cli": "^18.2.20",
-    "@types/jasmine": "^4.3.6"
+    "@types/jasmine": "^4.3.6",
+    "fb-ngrx-undo": "^18.0.0"
   }
 }
